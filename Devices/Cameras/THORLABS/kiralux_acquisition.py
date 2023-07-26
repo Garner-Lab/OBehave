@@ -9,7 +9,7 @@ u = KiraluxUtilities()
 
 u.configure_path()
 
-with u.sdk as sdk:
+with TLCameraSDK() as sdk:
     print(sdk.discover_available_cameras())
     with sdk.open_camera('23234') as cam:
         print('inside open cam')
