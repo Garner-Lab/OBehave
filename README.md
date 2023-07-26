@@ -22,3 +22,9 @@ To install the Python SDK, please follow these directions:
  Example: C:\Program Files\Thorlabs\Scientific Imaging\Scientific Camera Support\Scientific Camera Interfaces\SDK\Python Toolkit
 
 3. For this application the 64-bit DLLs are included under Devices\Cameras\THORLABS\Library_X64 and the kiralux_utils.configure_path method is used to initialize the libraries.
+
+Alternatively, you can copy the managed DLLs from
+
+ Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_32_lib\*.dll (for 32-bit LabVIEW)
+ or
+ Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\*.dll (for 64-bit LabVIEW)
