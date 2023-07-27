@@ -1,5 +1,3 @@
-
-
 import cv2
 
 from kiralux_cam import KiraluxCamera
@@ -13,4 +11,3 @@ cv2.imshow('frame', image)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
